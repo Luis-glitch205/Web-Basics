@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Layout Tags</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Layouts</h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a>Content Page 1</a></li>
+                    <li><a>Content Page 2</a></li>
+                    <li><a>Content Page 3</a></li>
+                </ul>
+            </nav>
+            <article>
+                <div>
+                <h2>Article</h2>
+                    <p>Defines an independent, self-contained content.</p>
+                    <p>This is where a piece of content for this page will be displayed. Its likely a bunch of text like this in paragraph form.</p>
+                    <p>You will put specific information regarding whatever topic the page is about here. So if it's a recipe page, you might have a list of ingrediants, and step by step instructions on how to apply those ingredients.</p>
+                </div>
+                <aside>
+                    <p>This element defines some content aside from the content it is placed in (like a sidebar).</p>
+                    <p>The content in this element should be indirectly related to the surrounding content.</p>
+                </aside>
+            </article>
+        </section>
+        <footer>
+            <h6>Footer</h6>
+            <details>
+                <summary>Click to see more</summary>
+                <p>This is some hidden content that will appear when the details are expanded.</p>
+            </details>
+        </footer>
+    </body>
+</html>

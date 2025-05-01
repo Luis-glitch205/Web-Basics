@@ -1,0 +1,7 @@
+body {
+    background-color:red;
+}
+#class{
+    display: flex;
+    justify-content: center;
+}

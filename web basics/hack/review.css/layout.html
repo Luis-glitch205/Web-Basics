@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Layout Tags</title>
+        <link rel="stylesheet" href="layout.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <h1>HTML Layouts</h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li> 
+                </ul>
+            </nav>
+            <article>
+                <div class="main-content">
+                <h2>Article</h2>
+                    <p>Defines an independent, self-contained content.</p>
+                    <p>This is where a piece of content for this page will be displayed. Its likely a bunch of text like this in paragraph form.</p>
+                    <p>You will put specific information regarding whatever topic the page is about here. So if it's a recipe page, you might have a list of ingrediants, and step by step instructions on how to apply those ingredients.</p>
+                </div>
+                <aside>
+                    <p>This element defines some content aside from the content it is placed in (like a sidebar).</p>
+                    <p>The content in this element should be indirectly related to the surrounding content.</p>
+                </aside>
+            </article>
+        </section>
+        <footer>
+            <h3>Footer</h3>
+            <details class="menu">
+                <summary>Click to see more</summary>
+                <p>This is some hidden content that will appear when the details are expanded.</p>
+            </details>
+            <details class="menu">
+                <summary>Menu 1</summary>
+                <ul class="menu-list">
+                    <li><a href="#">item 1</a></li>
+                    <li><a href="#">item 2</a></li>
+                    <li><a href="#">item 3</a></li>
+                    <li>
+                        <details>
+                            <summary>Submenu</summary>
+                            <ul class="menu-list">
+                                <li><a href="#">Sub 1</a></li>
+                                <li><a href="#">Sub 2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </footer>
+    </body>
+</html>
